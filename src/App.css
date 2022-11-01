@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+.img-box{
+  margin:0;
+  width: 250px;
+  height:auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.movie{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap:wrap;
+  justify-content:flex-start;
+
+}
+
+
+/* Movie Card Details */
+ul.img-box li{
+  border: 1px solid lightgray;
+  list-style-type: none;
+  padding: 14px 15px;
+  word-wrap: break-word;
+  width: 250px;
+ 
+}
+ul.img-box{
+  margin:20px;
+}
+
+
+
+/* Navigation  */
+.nav{
+  background-color: #333;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:100pc;
+  height:50px;
+}
+
+ul.nav li{
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float :left;
+}
+ul.nav li:hover{
+  background-color: #111;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
