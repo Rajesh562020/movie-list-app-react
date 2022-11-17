@@ -2,19 +2,39 @@
   margin:0;
   width: 250px;
   height:auto;
+  color: white;
+  /* background-color: aliceblue; */
+  /* display: flex;
+  justify-content: center; */
+ 
 }
 .movie{
   display: flex;
   flex-wrap:wrap;
   justify-content:flex-start;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 
+}
+
+.App{
+   background-color: black;
+ 
+}
+.top-img{
+  
+  width:100vw;
+  
+ /* background-image: url('../public/images/net-back-img.jpeg'); 
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-attachment: fixed;  */
 }
 
 
 /* Movie Card Details */
 ul.img-box li{
-  border: 1px solid lightgray;
+  /* border: 1px solid lightgray; */
   list-style-type: none;
   padding: 14px 15px;
   word-wrap: break-word;
@@ -29,7 +49,7 @@ ul.img-box{
 
 /* Navigation  */
 .nav{
-  background-color: #333;
+  background-color: rgba(255,255,255,0.1);
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -40,14 +60,15 @@ ul.img-box{
 }
 
 ul.nav li{
-  display: block;
+  display: flex;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   float :left;
+  justify-content: space-between;
 }
 ul.nav li:hover{
-  background-color: #111;
+  background-color: rgba(255,255,255,0.1);
 }
 

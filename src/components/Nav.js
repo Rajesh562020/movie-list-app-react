@@ -3,9 +3,13 @@ import "../App.css"
 function Nav(){
 return(
 <>
+
+
 <ul className="nav">
-    <li>MovieList</li>
-    
+    <li style={{color:'red'}}><strong>MovieList</strong></li>
+    <li style={{color:'red'}}>
+       
+    </li>
 </ul>
 
 </>
