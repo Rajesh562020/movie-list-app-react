@@ -7,6 +7,7 @@ import Top from './components/Top.js';
 function App() {
   return (
     <div className="App">
+      //comments
       <Nav/>
       <Top/>
       <MovieCardDisplay/>
